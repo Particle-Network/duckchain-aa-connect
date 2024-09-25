@@ -127,7 +127,7 @@ export default function Home() {
     try {
       const tx = {
         to: recipientAddress,
-        value: parseEther("0.01").toString(),
+        value: parseEther("0.0001").toString(),
         data: "0x",
       };
 
@@ -257,7 +257,7 @@ export default function Home() {
                 Send a gasless transaction
               </h2>
               <h2 className="text-lg">
-                Send 0.01 {chain?.nativeCurrency.symbol}
+                Send 0.0001 {chain?.nativeCurrency.symbol}
               </h2>
               <input
                 type="text"
@@ -273,7 +273,7 @@ export default function Home() {
               >
                 {isSending
                   ? "Sending..."
-                  : `Send 0.01 ${chain?.nativeCurrency.symbol} Particle provider`}
+                  : `Send 0.0001 ${chain?.nativeCurrency.symbol} Particle provider`}
               </button>
               <button
                 className="mt-4 bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 shadow-lg"
@@ -282,7 +282,7 @@ export default function Home() {
               >
                 {isSending
                   ? "Sending..."
-                  : `Send 0.01 ${chain?.nativeCurrency.symbol} ethers`}
+                  : `Send 0.0001 ${chain?.nativeCurrency.symbol} ethers`}
               </button>
               {transactionHash && (
                 <TxNotification

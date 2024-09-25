@@ -11,7 +11,7 @@ import { EntryPosition, wallet } from "@particle-network/connectkit/wallet";
 import { aa } from "@particle-network/connectkit/aa";
 // aa end
 // evm start
-import { zircuitTestnet } from "@particle-network/connectkit/chains";
+import { defineChain } from "@particle-network/connectkit/chains";
 import { evmWalletConnectors } from "@particle-network/connectkit/evm";
 // evm end
 
@@ -24,6 +24,28 @@ const walletConnectProjectId = process.env
 if (!projectId || !clientKey || !appId) {
   throw new Error("Please configure the Particle project in .env first!");
 }
+
+const duckTestnet = defineChain({
+  id: 202105,
+  name: "Duckchain Testnet",
+  nativeCurrency: {
+    decimals: 18,
+    name: "TON",
+    symbol: "TON",
+  },
+  rpcUrls: {
+    default: {
+      http: ["https://testnet-rpc.duckchain.io"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Duckchain Testnet Explorer",
+      url: "https://www.oklink.com/duckchain-testnet",
+    },
+  },
+  testnet: true,
+});
 
 const config = createConfig({
   projectId,
@@ -69,7 +91,7 @@ const config = createConfig({
     }),
     // aa config end
   ],
-  chains: [zircuitTestnet],
+  chains: [duckTestnet],
 });
 
 // Wrap your application with this component.

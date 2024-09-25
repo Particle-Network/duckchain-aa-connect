@@ -2,7 +2,7 @@ import Image from "next/image";
 
 // Link to repository
 const repositoryLink = {
-  href: "https://github.com/Particle-Network/zircuit-aa-connect",
+  href: "https://github.com/Particle-Network/duckchain-aa-connect",
   imgSrc: "https://static.particle.network/mintlify/snippets/logos/github.png",
   imgAlt: "GitHub Logo",
   text: "Check the repository",
@@ -38,14 +38,14 @@ const links = [
     description: "The L1 unifying all chains through Universal Accounts.",
   },
   {
-    href: "https://zircuit.gitbook.io/zircuit/",
-    title: "Zircuit Documentation →",
-    description: "Zircuit is an EVM-compatible zero-knowledge rollup Layer 2.",
+    href: "https://diary.duckchain.io/",
+    title: "Duckchain Documentation →",
+    description: "Duckchain is TON Layer 2 chain.",
   },
   {
-    href: "https://bridge.testnet.zircuit.com/",
-    title: "Zircuit Testnet Bridge →",
-    description: "Bridge Sepolia ETH to Zircuit.",
+    href: "https://diary.duckchain.io/developer-testnet/network-information#testnet-faucet",
+    title: "Duckchain Testnet Faucet →",
+    description: "Get 0.1 TON every 24 hours.",
   },
 ];
 

@@ -1122,13 +1122,13 @@
     "@parcel/watcher-win32-ia32" "2.4.1"
     "@parcel/watcher-win32-x64" "2.4.1"
 
-"@particle-network/aa-plugin@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@particle-network/aa-plugin/-/aa-plugin-1.0.2.tgz#69ee623222bfe8ea7cc38b4d19f354d7fcc12911"
-  integrity sha512-p/BhqV5YLNzTAwFJWPdFLVu+MEcNIHWgqBhRpUK14rZ2Rv0IpnoOmk3YYyVZ/kgrq3i1M977eyC0bCdCsgIG9Q==
+"@particle-network/aa-plugin@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@particle-network/aa-plugin/-/aa-plugin-1.0.3.tgz#ba3e4458aa67aa7c2a47a451854c9aed4050d9b2"
+  integrity sha512-alAsEUPb8Tph8e8O//1TqDgpK0MJxjP9/EWHycFK+YsyFoaN/COlX3M1NUXiFXv/H8EVhuF7C80F7OG0OfoQvg==
   dependencies:
     "@particle-network/aa" "^2.0.2"
-    "@particle-network/plugin-core" "^1.0.0"
+    "@particle-network/plugin-core" "^1.0.1"
 
 "@particle-network/aa@^2.0.2":
   version "2.0.2"
@@ -1145,13 +1145,13 @@
     hash.js "^1.1.7"
     uuidv4 "^6.2.13"
 
-"@particle-network/auth-connectors@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@particle-network/auth-connectors/-/auth-connectors-1.0.3.tgz#5a2f5b33abb307176a478115465334fb50613fcd"
-  integrity sha512-/S5nZiq0HtWZclsydTj8/X3yJVyK1kkD+y1BVY7nGBbM2JxlGsnB3j5H4nK7PDagX0KMeuSii36hF/mtS9lN5A==
+"@particle-network/auth-connectors@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@particle-network/auth-connectors/-/auth-connectors-1.0.6.tgz#2c96c71eb4b69ec4b9f84ca3ad0d7965e289e6fe"
+  integrity sha512-lxMivhGRPfyG4c6HCys8GBpFuCIxbM2rdwvSiEMAO7l9esucYMvQrFCP9//c6gTKDO5venYQwYsKuNHDQGfjMA==
   dependencies:
-    "@particle-network/authkit" "^2.0.3"
-    "@particle-network/connector-core" "^1.0.0"
+    "@particle-network/authkit" "^2.0.5"
+    "@particle-network/connector-core" "^1.0.1"
 
 "@particle-network/auth-core@^2.0.2":
   version "2.0.2"
@@ -1178,10 +1178,10 @@
     lzutf8 "^0.6.3"
     uuid "^9.0.1"
 
-"@particle-network/authkit@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@particle-network/authkit/-/authkit-2.0.3.tgz#a19e866c2638f8af94d9f60f14154f4491d8a9a0"
-  integrity sha512-FfgdUEtO6p++qKp+LhZFIl1cTWMb3qh5FvXirRCkF+pimnWG0j1GNLFV6cphSA6gCzhv8Vr8wlEnNUG+SnCggg==
+"@particle-network/authkit@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@particle-network/authkit/-/authkit-2.0.5.tgz#4bd7dd6c2cc61f6ccc8b57623ba24508f947cf80"
+  integrity sha512-8lO10i9iKX7JaF6735XsOyRIWuC5sJQTalB0ngfaqVzd5o4rH4SHx5f6zDhx3APuaXL19jYmFE37mpwjTs4Mhw==
   dependencies:
     "@particle-network/analytics" "^1.0.1"
     "@particle-network/auth-core" "^2.0.2"
@@ -1204,16 +1204,16 @@
     react-shadow "^20.5.0"
     uuid "^8.3.2"
 
-"@particle-network/connectkit@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@particle-network/connectkit/-/connectkit-2.0.4.tgz#8cfd134ea010f5e757259f3559c229f30de46cfb"
-  integrity sha512-bTiuuFbGGwOm2qMa4bvfi8Wrt+UR/KMNnYx9qYd848wEDJq4yRw9Mlc+6VAYSA5Tw/bXttLHxHCh/e96treQYw==
+"@particle-network/connectkit@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@particle-network/connectkit/-/connectkit-2.0.8.tgz#150b8f23a21320e75f1432c5f8f3f63578de2ac8"
+  integrity sha512-1fPXVnMrxg4fY6fKSvZJWgKxZVVq7r6Z4WqDtwF4J1uFRIVqeZDLVl/dY8F17gMuYmH8+AoKD/5SMZuuB4tllw==
   dependencies:
-    "@particle-network/aa-plugin" "^1.0.2"
-    "@particle-network/auth-connectors" "^1.0.3"
-    "@particle-network/evm-connectors" "^1.0.4"
-    "@particle-network/solana-connectors" "^1.0.0"
-    "@particle-network/wallet-plugin" "^1.0.2"
+    "@particle-network/aa-plugin" "^1.0.3"
+    "@particle-network/auth-connectors" "^1.0.6"
+    "@particle-network/evm-connectors" "^1.0.7"
+    "@particle-network/solana-connectors" "^1.0.1"
+    "@particle-network/wallet-plugin" "^1.0.3"
     buffer "^6.0.3"
     country-flag-icons "^1.5.12"
     detect-browser "^5.3.0"
@@ -1224,22 +1224,22 @@
     resize-observer-polyfill "^1.5.1"
     styled-components "^6.1.11"
 
-"@particle-network/connector-core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@particle-network/connector-core/-/connector-core-1.0.0.tgz#fefa823519f21e3f1218fd12a344c235e746ffc3"
-  integrity sha512-ji7qXiXkkaqESlINcfpCykG+EtydGTUi7RgbXyzSgZOkFa1PfIzW0V9XYj+j9Fk6htCvbpgWxEqbTj0emANBdw==
+"@particle-network/connector-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@particle-network/connector-core/-/connector-core-1.0.1.tgz#47e1e89d5fe665a8f170110065fc5b980dc500d8"
+  integrity sha512-ODmEg3blvRJQC8SY0moa2egk9Lfsy9czrXLmT0Z/kMuPc9C2LsNQlHFHm0myutFKdDZP2J/YL2sk4oMX3BwtGw==
   dependencies:
     eventemitter3 "5.0.1"
     mipd "0.0.7"
     zustand "4.4.1"
 
-"@particle-network/evm-connectors@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@particle-network/evm-connectors/-/evm-connectors-1.0.4.tgz#28840c71b24052fb1b86b2aae708d9cdc886bb23"
-  integrity sha512-pg7QQDkXFl+bKDu9XhKvaqtQQNADdDRAGmHmEvsh6sqzUmJJ5hF9WO5IGESTA2gQDJqyAXw2jL5tlWwD0py6bQ==
+"@particle-network/evm-connectors@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@particle-network/evm-connectors/-/evm-connectors-1.0.7.tgz#af918d524665385b5d700c1275070f39ee9a5728"
+  integrity sha512-Yzy0nBt1PSWMjh2H8AA1AAekkhxQ921hUMJ6hxey5K1awZafsXbSAJJvyn8uegoeXAlgeBVEuZcZPGjFQC4Ysw==
   dependencies:
     "@coinbase/wallet-sdk" "4.0.3"
-    "@particle-network/connector-core" "^1.0.0"
+    "@particle-network/connector-core" "^1.0.1"
     "@peculiar/asn1-ecc" "^2.3.13"
     "@peculiar/asn1-schema" "^2.3.13"
     "@simplewebauthn/browser" "^10.0.0"
@@ -1247,17 +1247,17 @@
     "@walletconnect/modal" "2.6.2"
     mipd "0.0.7"
 
-"@particle-network/plugin-core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@particle-network/plugin-core/-/plugin-core-1.0.0.tgz#f9f4befdd3f3ea80c9457e280c53f8d2cc274459"
-  integrity sha512-Ha94d8S+rRZ3U011qBdeAGBVWHWv6j6cyVqyW9MOIQ+67HJMGtyhrKuQo/c42QcjHan038gNpkDyi5B6rwbyJw==
+"@particle-network/plugin-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@particle-network/plugin-core/-/plugin-core-1.0.1.tgz#ec6c079c3f1233931089333860ffa8d302eb984f"
+  integrity sha512-2SBGHUodMLRruG44pKNPo+/IdGwlKOjFbsy5PRVMOFYHhHfhDryZb5v7ALMo6R5bWqBXQMFLQKcz+YjyzE/pyA==
 
-"@particle-network/solana-connectors@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@particle-network/solana-connectors/-/solana-connectors-1.0.0.tgz#a7289d738a136f2bcc8afecc514026847c42aa6b"
-  integrity sha512-rAYn3CEN8KdrJa/kLKuP+CLbuGRKIQOenBM90dGlaQK/y8lRaOM0esgPCQwlBGui9DxUhCg3kA/6uEwLMwZhHQ==
+"@particle-network/solana-connectors@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@particle-network/solana-connectors/-/solana-connectors-1.0.1.tgz#30e5857705373dd160100deaa27adb2ce35427b4"
+  integrity sha512-o+ohufUxsHYpLiD2zHBANjPM/wEo+RkE9vKJ8EdKqOdEN+01JVd6mIqt4P1fcxfH9+vb1PMXn8WlMwW/KGNDyw==
   dependencies:
-    "@particle-network/connector-core" "^1.0.0"
+    "@particle-network/connector-core" "^1.0.1"
     "@solana/web3.js" "^1.73.0"
 
 "@particle-network/thresh-sig@^0.7.8":
@@ -1270,12 +1270,12 @@
     buffer "^6.0.3"
     elliptic "^6.5.4"
 
-"@particle-network/wallet-plugin@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@particle-network/wallet-plugin/-/wallet-plugin-1.0.2.tgz#3d8560d18d7612948091e79e51432499d88216f6"
-  integrity sha512-m6PqDPXDeIEHfuIBdvtzM2++2sRlOgWLO0+rVqA09sLuNAYpAiuH/IzAy7fUJ9uFysAoP1KsogqnaXCIhRI16g==
+"@particle-network/wallet-plugin@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@particle-network/wallet-plugin/-/wallet-plugin-1.0.3.tgz#2aa3ac6523613c8e3d9272b96adc491fc951fa73"
+  integrity sha512-KJzGJAOnaZ7imNqDHPm6jmbsJYOs7uLBsMmv3grAqi+t0iHPpy5wdoazisRDeWDci0tPKjjq6nlEpalKX6q+1Q==
   dependencies:
-    "@particle-network/plugin-core" "^1.0.0"
+    "@particle-network/plugin-core" "^1.0.1"
     "@particle-network/wallet" "^2.0.3"
 
 "@particle-network/wallet@^2.0.3":
@@ -6623,6 +6623,7 @@ string-convert@^0.2.0:
   integrity sha512-u/1tdPl4yQnPBjnVrmdLo9gtuLvELKsAoRapekWggdiQNvvvum+jYF329d84NAa660KQw7pB2n36KrIKVoXa3A==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
